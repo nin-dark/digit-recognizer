@@ -77,4 +77,4 @@ The script will also display a few sample digit images with their predicted and 
 
 ---
 
-**Enjoy learning how neural networks work under
+**Enjoy learning how neural networks work
