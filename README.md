@@ -1,6 +1,6 @@
 # Neural Network from Scratch: MNIST Digit Recognition
 
-This project implements a simple neural network **from scratch using only NumPy** to recognize handwritten digits from the [MNIST dataset](http://yann.lecun.com/exdb/mnist/).  
+This project implements a simple neural network **from scratch using only NumPy** to recognize handwritten digits from a segment of the [MNIST dataset](http://yann.lecun.com/exdb/mnist/).  
 It demonstrates the basics of forward and backward propagation, parameter updates, and prediction—without using any deep learning frameworks.
 
 ---
@@ -9,7 +9,7 @@ It demonstrates the basics of forward and backward propagation, parameter update
 
 - **A beginner-friendly, fully-commented implementation of a neural network for digit classification.**
 - **No TensorFlow, PyTorch, or Keras—just NumPy and basic Python.**
-- **Trains on the MNIST dataset (CSV format) and predicts digits from images.**
+- **Trains on a segment of the MNIST dataset (CSV format) and predicts digits from images.**
 - **Includes visualization of predictions.**
 
 ---
@@ -17,10 +17,10 @@ It demonstrates the basics of forward and backward propagation, parameter update
 ## How to Run It
 
 1. **Clone or download this repository.**
-2. **Download the MNIST training data in CSV format** (see below).
+2. **Download the training data in CSV format** (see below).
 3. **Install requirements:**
     ```bash
-    pip install numpy pandas matplotlib
+    pip install -r requirements.txt
     ```
 4. **Run the script:**
     ```bash
